@@ -1,3 +1,0 @@
-= IntelliJ Idea plugin project for [http://code.google.com/p/projectlombok/ Lombok] project. =
-
-Support for lombok annotations to write great java code with IntelliJ Idea
