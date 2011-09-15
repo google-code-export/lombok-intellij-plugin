@@ -1,0 +1,21 @@
+= Current Lombok feature support: =
+
+|| *annotation* || *basic support* || *full support* || 
+||@Getter ||[http://prepaidvergleich.de/images/icon_yes.png]  || ||
+||@Getter(lazy=true) ||[http://prepaidvergleich.de/images/icon_no.png] || ||
+||@Setter ||[http://prepaidvergleich.de/images/icon_yes.png]  || ||
+||@Synchronized||[http://prepaidvergleich.de/images/icon_no.png]  || ||
+||@ToString ||[http://prepaidvergleich.de/images/icon_yes.png]  || ||
+||@EqualsAndHashCode ||[http://prepaidvergleich.de/images/icon_yes.png]  || ||
+||@NoArgsConstructor ||[http://prepaidvergleich.de/images/icon_yes.png]  || ||
+||@AllArgsConstructor ||[http://prepaidvergleich.de/images/icon_yes.png]  || ||
+||@RequiredArgsConstructor ||[http://prepaidvergleich.de/images/icon_yes.png] || ||
+||@Data ||[http://prepaidvergleich.de/images/icon_yes.png] || ||
+||@Delegate ||[http://prepaidvergleich.de/images/icon_yes.png] || ||
+||@CommonsLog||[http://prepaidvergleich.de/images/icon_yes.png] || ||
+||@Log||[http://prepaidvergleich.de/images/icon_yes.png] || ||
+||@Log4j||[http://prepaidvergleich.de/images/icon_yes.png] || ||
+||@Slf4j||[http://prepaidvergleich.de/images/icon_yes.png] || ||
+||@Cleanup||[http://prepaidvergleich.de/images/icon_no.png]  || ||
+||@SneakyThrows||[http://prepaidvergleich.de/images/icon_no.png]  || ||
+||@val||[http://prepaidvergleich.de/images/icon_no.png]  || ||
