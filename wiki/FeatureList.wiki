@@ -1,21 +1,27 @@
+#labels Featured
+
 = Current Lombok feature support: =
 
-|| *annotation* || *basic support* || *full support* || 
-||@Getter||[http://prepaidvergleich.de/images/icon_yes.png]  || ||
-||@Getter(lazy=true)||[http://prepaidvergleich.de/images/icon_no.png] || ||
-||@Setter||[http://prepaidvergleich.de/images/icon_yes.png]  || ||
-||@Synchronized||[http://prepaidvergleich.de/images/icon_no.png]  || ||
-||@ToString||[http://prepaidvergleich.de/images/icon_yes.png]  || ||
-||@EqualsAndHashCode||[http://prepaidvergleich.de/images/icon_yes.png]  || ||
-||@NoArgsConstructor||[http://prepaidvergleich.de/images/icon_yes.png]  || ||
-||@AllArgsConstructor||[http://prepaidvergleich.de/images/icon_yes.png]  || ||
-||@RequiredArgsConstructor ||[http://prepaidvergleich.de/images/icon_yes.png] || ||
-||@Data||[http://prepaidvergleich.de/images/icon_yes.png] || ||
-||@Delegate||[http://prepaidvergleich.de/images/icon_yes.png] || ||
-||@CommonsLog||[http://prepaidvergleich.de/images/icon_yes.png] || ||
-||@Log||[http://prepaidvergleich.de/images/icon_yes.png] || ||
-||@Log4j||[http://prepaidvergleich.de/images/icon_yes.png] || ||
-||@Slf4j||[http://prepaidvergleich.de/images/icon_yes.png] || ||
-||@Cleanup||[http://prepaidvergleich.de/images/icon_no.png]  || ||
-||@SneakyThrows||[http://prepaidvergleich.de/images/icon_no.png]  || ||
-||@val||[http://prepaidvergleich.de/images/icon_no.png]  || ||
+===Current general limitations:===
+ * code auto completition for a class 'A' works anywhere outside of 'A', but not in 'A' self. 
+ * not all annotations are now fully supported
+
+|| *annotation* || *supported* || *known limitations* || 
+||@Getter||[http://prepaidvergleich.de/images/icon_yes.png] || none ||
+||@Getter(lazy=true)||[http://prepaidvergleich.de/images/icon_yes.png] || don't need extra support from IDE, only compile time thing||
+||@Setter||[http://prepaidvergleich.de/images/icon_yes.png] || none ||
+||@Synchronized||[http://prepaidvergleich.de/images/icon_yes.png] ||don't need extra support from IDE, only compile time thing||
+||@ToString||[http://prepaidvergleich.de/images/icon_yes.png]|| none ||
+||@EqualsAndHashCode||[http://prepaidvergleich.de/images/icon_yes.png]  ||none||
+||@NoArgsConstructor||[http://prepaidvergleich.de/images/icon_yes.png]  || no support for *staticName* property at the moment ||
+||@AllArgsConstructor||[http://prepaidvergleich.de/images/icon_yes.png]  ||no support for *staticName* and *suppressConstructorProperties* property at the moment||
+||@RequiredArgsConstructor ||[http://prepaidvergleich.de/images/icon_yes.png]||no support for *staticName* and *suppressConstructorProperties* property at the moment ||
+||@Data||[http://prepaidvergleich.de/images/icon_yes.png]||no support for *staticConstructor* property at the moment ||
+||@Delegate||[http://prepaidvergleich.de/images/icon_yes.png] ||no support for *types* and *excludes* property at the moment ||
+||@CommonsLog||[http://prepaidvergleich.de/images/icon_yes.png] ||none ||
+||@Log||[http://prepaidvergleich.de/images/icon_yes.png] ||none ||
+||@Log4j||[http://prepaidvergleich.de/images/icon_yes.png] ||none ||
+||@Slf4j||[http://prepaidvergleich.de/images/icon_yes.png] ||none ||
+||@Cleanup||[http://prepaidvergleich.de/images/icon_yes.png] ||don't need extra support from IDE, only compile time thing ||
+||@SneakyThrows||[http://prepaidvergleich.de/images/icon_no.png] || not supported ||
+||@val||[http://prepaidvergleich.de/images/icon_no.png] || not supported ||
