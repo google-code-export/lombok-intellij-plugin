@@ -1,0 +1,31 @@
+#summary Release notes (enhancements, bug fixes, etc)
+
+= Release Notes =
+
+Note: For more details on each item, please see its issue
+
+=== 0.4.0 - January 22nd, 2012 ===
+  * Fixed: Reflection access to fields on IntelliJ IDEA Ultimate (obfuscated field names)
+
+=== 0.3.0 - January 22nd, 2012 ===
+  * Fixed issue #4 "Getter/Setter on generic types"
+  * Fixed issue #6 "The Plugin panel in IDEA lists the plugin as "Lombook Plugin (doubled letter 'o')"
+  * Fixed issue #7 "Added support for IntelliJ 11"
+  * Fixed issue #9 "@Data(staticConstructor="of") is not created"
+  * Fixed issue #10 "Empty constructor is created even if it already exists"
+  * Fixed issue #15 "@Data with @NoArgsConstructor does not generate default constructor"
+  * Fixed issue #17 "Incompatibility with javax.annotation.Nonnull/Nullable"
+  * Added more inspections and QuickFixes for some of lombok annotations.
+  * Fixed: skip constructor generation for @Data if some constructor is already defined in the class
+  * Fixed: skip getter generation for invalid lazy-getters
+  * Added support for "LazyGetter" and "FluentSetter" annotations from lombok-pg
+
+=== 0.2.0 - September 25nd, 2011 ===
+  * Added inspections for lombok annotations.
+  * Added some simple QuickFixes for lombok inspections.
+  * Fixed bug with not working auto-completion in the same source file with lombok annotations that generate methods.
+  * Better support of lombok annotations, especially for 'staticName','types' and 'excludes' properties of @Delegate and @XXXConstructor
+  * General bug fixing and many improvements
+
+=== 0.2.0 - September 18nd, 2011 ===
+  * Initial Release for IDEA >= 10.0
