@@ -13,8 +13,8 @@
 ||@EqualsAndHashCode||[http://prepaidvergleich.de/images/icon_yes.png] ||[http://prepaidvergleich.de/images/icon_yes.png] ||none||
 ||@NoArgsConstructor||[http://prepaidvergleich.de/images/icon_yes.png] ||[http://prepaidvergleich.de/images/icon_yes.png] || none ||
 ||@AllArgsConstructor||[http://prepaidvergleich.de/images/icon_yes.png] ||[http://prepaidvergleich.de/images/icon_yes.png] ||none ||
-||@RequiredArgsConstructor ||[http://prepaidvergleich.de/images/icon_yes.png]||[http://prepaidvergleich.de/images/icon_yes.png]||IntelliJ warning for not initialized final variables (issue 2) ||
-||@Data||[http://prepaidvergleich.de/images/icon_yes.png]||[http://prepaidvergleich.de/images/icon_yes.png]||IntelliJ warning for not initialized final variables (issue 2) ||
+||@RequiredArgsConstructor ||[http://prepaidvergleich.de/images/icon_yes.png]||[http://prepaidvergleich.de/images/icon_yes.png]||none ||
+||@Data||[http://prepaidvergleich.de/images/icon_yes.png]||[http://prepaidvergleich.de/images/icon_yes.png]||none ||
 ||@Delegate||[http://prepaidvergleich.de/images/icon_yes.png] ||[http://prepaidvergleich.de/images/icon_yes.png]||none ||
 ||@CommonsLog||[http://prepaidvergleich.de/images/icon_yes.png]||[http://prepaidvergleich.de/images/icon_yes.png] ||none ||
 ||@Log||[http://prepaidvergleich.de/images/icon_yes.png] ||[http://prepaidvergleich.de/images/icon_yes.png]||none ||
