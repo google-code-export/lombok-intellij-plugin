@@ -3,8 +3,8 @@
  # download and install last idea9, idea10 and idea11 source code
  # svn checkout from http://code.google.com/p/intellij-maven/source/browse/#svn%2Ftrunk%2Fintellij-maven   
  # Create new profile in pom.xml in intellij-maven directory for youself like existing one:
-<code language="xml">
-{{{
+   <code language="xml">
+   {{{
    <profile>
       <id>mpl</id>
       <activation>
@@ -19,15 +19,15 @@
         <idea11.home>D:/Projekte/Idea/ideaIC-117.418</idea11.home>
       </properties>
     </profile>
-}}}
-</code>    
-    Use your own directories for idea9, idea10 and idea11 places!
+   }}}
+   </code>    
+   Use your own directories for idea9, idea10 and idea11 places!
     
 # run "mvn clean" and "mvn install" in intellij-maven directory. Check for successful build.
 # run "mvn clean" and "mvn install -DIntelliJ=10" in intellij-maven directory. Check for successful build.
 # run "mvn clean" and "mvn install -DIntelliJ=9" in intellij-maven directory. Check for successful build.
 
---> now you should be able to build lombok-intellij-plugin with maven on command line.
+   --> now you should be able to build lombok-intellij-plugin with maven on command line.
 
 # Install new Idea-plugin: "IntelliJ plugin modul maven importer" (http://plugins.intellij.net/plugin/?idea&id=7054) (Plugin is available in IntelliJ-IDEA)
 # Setup JDK in IntelliJ
@@ -36,4 +36,4 @@
 # Import lombok-intellij-plugin projekt as maven project.
 # Check and change as needed Projekt-JDK and Plugin-JDK for plugin modul in IntelliJ for imported lombok-intellij-plugin projekt
 
---> now you should be able to build lombok-intellij-plugin with IntelliJ-Idea too.
+   --> now you should be able to build lombok-intellij-plugin with IntelliJ-Idea too.
