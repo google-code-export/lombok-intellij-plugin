@@ -1,9 +1,7 @@
 * Howto:
 
  # download and install last idea9, idea10 and idea11 source code
-
- # svn checkout from http://code.google.com/p/intellij-maven/source/browse/#svn%2Ftrunk%2Fintellij-maven
-   
+ # svn checkout from http://code.google.com/p/intellij-maven/source/browse/#svn%2Ftrunk%2Fintellij-maven   
  # Create new profile in pom.xml in intellij-maven directory for youself like existing one:
 
 <code language="xml">
