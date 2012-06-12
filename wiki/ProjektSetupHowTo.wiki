@@ -4,6 +4,7 @@ Howto:
 2)svn checkout from http://code.google.com/p/intellij-maven/source/browse/#svn%2Ftrunk%2Fintellij-maven
    
 3) Create new profile in pom.xml in intellij-maven directory for youself like existing one:
+<code>
    <profile>
       <id>mpl</id>
       <activation>
@@ -18,7 +19,7 @@ Howto:
         <idea11.home>D:/Projekte/Idea/ideaIC-117.418</idea11.home>
       </properties>
     </profile>
-    
+</code>    
     Use your own directories for idea9, idea10 and idea11 places!
     
 4) run "mvn clean" and "mvn install" in intellij-maven directory. Check for successful build.
