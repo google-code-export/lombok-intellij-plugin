@@ -1,10 +1,19 @@
 * Howto:
 
- # You will need IntelliJ (9, 10 and 11) to work with the plugin-code, so download and install IntelliJ IC distribution and source code:   
-  * [http://download.jetbrains.com/idea/ideaIC-9.0.4.exe IntelliJ 9.0.4 IC] and  [http://download.jetbrains.com/idea/ideaIC-9.0.4-src.tar.bz2 IntelliJ 9.0.4 IC Sources] 
-  * [http://download.jetbrains.com/idea/ideaIC-10.5.4.exe IntelliJ 10.5.4 IC] and  [http://download.jetbrains.com/idea/ideaIC-10.5.4-src.tar.bz2 IntelliJ 10.5.4 IC Sources]
-  * [http://download.jetbrains.com/idea/ideaIC-11.1.2.exe IntelliJ 11.1.2 IC] and  [http://download.jetbrains.com/idea/ideaIC-11.1.2-src.tar.bz2 IntelliJ 11.1.2 IC Sources]
- # svn checkout from http://code.google.com/p/intellij-maven/source/browse/#svn%2Ftrunk%2Fintellij-maven   
+ # You will need IntelliJ IDEA (9, 10 and 11) distributions to work with the plugin-code. Download and install IntelliJ IC distribution and source code:   
+  * IntelliJ 9.0.4 IC [http://download.jetbrains.com/idea/ideaIC-9.0.4.exe (exe)] / [http://download.jetbrains.com/idea/ideaIC-9.0.4.tar.gz (tar.gz)] and  [http://download.jetbrains.com/idea/ideaIC-9.0.4-src.tar.bz2 Sources] 
+  * IntelliJ 10.5.4 IC [http://download.jetbrains.com/idea/ideaIC-10.5.4.exe (exe)] / [http://download.jetbrains.com/idea/ideaIC-10.5.4.tar.gz (tar.gz)]  and  [http://download.jetbrains.com/idea/ideaIC-10.5.4-src.tar.bz2 Sources]
+  * IntelliJ 11.1.2 IC [http://download.jetbrains.com/idea/ideaIC-11.1.2.exe (exe)] / [http://download.jetbrains.com/idea/ideaIC-11.1.2.tar.gz (tar.gz)] and  [http://download.jetbrains.com/idea/ideaIC-11.1.2-src.tar.bz2 Sources]
+ # Install IntelliJ IDEA on windows or just unpack downloaded tar.gz bundles on *nix
+{{{
+$ tar -zxf ideaIC-9.0.4.tar.gz
+$ tar -zxf ideaIC-10.5.4.tar.gz
+$ tar -zxf ideaIC-11.1.2.tar.gz
+}}}
+ # svn checkout intellij-maven project from http://code.google.com/p/intellij-maven
+{{{
+$ svn checkout http://intellij-maven.googlecode.com/svn/trunk/intellij-maven
+}}}
  # Create new profile in pom.xml in intellij-maven directory for youself like existing one:
    <code language="xml">
    {{{
@@ -25,12 +34,14 @@
    }}}
    </code>    
    Use your own directories for idea9, idea10 and idea11 places!
-    
  # run "mvn clean" and "mvn install" in intellij-maven directory. Check for successful build.
+{{{
+$ mvn -Pyour_profile clean install
+}}}
  # run "mvn clean" and "mvn install -DIntelliJ=10" in intellij-maven directory. Check for successful build.
  # run "mvn clean" and "mvn install -DIntelliJ=9" in intellij-maven directory. Check for successful build.
 
-   --> now you should be able to build lombok-intellij-plugin with maven on command line.
+   --> now you should be able to build lombok-intellij-plugin with maven from command line.
 
  # Install new Idea-plugin: "IntelliJ plugin modul maven importer" (http://plugins.intellij.net/plugin/?idea&id=7054) (Plugin is available in IntelliJ-IDEA)
  # Setup JDK in IntelliJ
