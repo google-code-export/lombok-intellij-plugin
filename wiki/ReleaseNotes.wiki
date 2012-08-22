@@ -5,6 +5,12 @@
 
 Note: For more details on each item, please see its issue
 
+=== 0.5.0 - August 22nd, 2012 ===
+  * Fixed issue #23 "Initial support for IntelliJ 12"
+  * Fixes issue #12 "Added support for "Singleton" and "EnumId" annotations from lombok-pg"
+  * Fixed issue #27 "@EqualsAndHashCode on final classes: Should not have a canEquals in that case."
+  * Fixed issue #28 "Getters and setters should be generated even if the method exists with different parameter count"
+
 === 0.4.0 - January 22nd, 2012 ===
   * Fixed: Reflection access to fields on IntelliJ IDEA Ultimate (obfuscated field names)
 
