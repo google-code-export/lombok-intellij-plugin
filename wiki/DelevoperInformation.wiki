@@ -1,9 +1,9 @@
-#labels Phase-Implementation
+#labels Phase-Implementation,Featured
 = Introduction =
 
 ==Information how to start with development of lombok-intellj-plugin==
 
- # You need IntelliJ to work with the plugin-code, so download and install IntelliJ IC distribution and source code: [http://download.jetbrains.com/idea/ideaIC-10.5.3.exe IntelliJ IC] and  [http://download.jetbrains.com/idea/ideaIC-10.5.3-src.tar.bz2 IntelliJ IC Sources]
+ # You need IntelliJ to work with the plugin-code, so download and install IntelliJ IC distribution and source code: [http://download.jetbrains.com/idea/ideaIC-12.1.4.exe IntelliJ IC] and  [http://download.jetbrains.com/idea/ideaIC-12.1.4-src.tar.bz2 IntelliJ IC Sources]
  # Follow instructions from here: [http://www.jetbrains.org/display/IJOS/Writing+Plug-ins HowTo]
  # Checkout lombok-intellj-plugin: [http://code.google.com/p/lombok-intellij-plugin/source/checkout HowTo]
 
@@ -11,7 +11,5 @@
 == Project setup==
 
  # Project setup contains maven and IntelliJ project files
- # You will need to setup you developer configuration in the main maven pom.xml first, just copy existing config of another developer and change you local paths and properties.
- # Run mvn install, to be sure a build is fine and let maven download and install some libs (dependencies of plugin)
-
-TODO to be continued....
+ # Just open this project and maybe change SDK and path to your system.
+ # Enjoj it!
