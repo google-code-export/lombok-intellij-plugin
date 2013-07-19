@@ -6,9 +6,9 @@
 
 || *annotation* || *supported* ||*known limitations* || 
 ||@Getter||[http://prepaidvergleich.de/images/icon_yes.png]||none ||
-||@Getter(lazy=true)||[http://prepaidvergleich.de/images/icon_yes.png] || don't need extra support from IDE, only compile time thing||
+||@Getter(lazy=true)||[http://prepaidvergleich.de/images/icon_yes.png]|| don't need extra support from IDE, only compile time thing||
 ||@Setter||[http://prepaidvergleich.de/images/icon_yes.png] ||none ||
-||@Synchronized||[http://prepaidvergleich.de/images/icon_yes.png] ||don't need extra support from IDE, only compile time thing||
+||@Synchronized||[http://prepaidvergleich.de/images/icon_yes.png]||don't need extra support from IDE, only compile time thing||
 ||@ToString||[http://prepaidvergleich.de/images/icon_yes.png]|| none ||
 ||@EqualsAndHashCode||[http://prepaidvergleich.de/images/icon_yes.png] ||none||
 ||@NoArgsConstructor||[http://prepaidvergleich.de/images/icon_yes.png] ||none ||
@@ -16,10 +16,18 @@
 ||@RequiredArgsConstructor ||[http://prepaidvergleich.de/images/icon_yes.png]||none ||
 ||@Data||[http://prepaidvergleich.de/images/icon_yes.png]||none ||
 ||@Delegate||[http://prepaidvergleich.de/images/icon_yes.png] ||none ||
-||@CommonsLog||[http://prepaidvergleich.de/images/icon_yes.png]|none ||
+||@CommonsLog||[http://prepaidvergleich.de/images/icon_yes.png]||none ||
 ||@Log||[http://prepaidvergleich.de/images/icon_yes.png] ||none ||
 ||@Log4j||[http://prepaidvergleich.de/images/icon_yes.png]||none ||
+||@Log4j2||[http://prepaidvergleich.de/images/icon_yes.png]||none ||
 ||@Slf4j||[http://prepaidvergleich.de/images/icon_yes.png]||none ||
+||@XSlf4j||[http://prepaidvergleich.de/images/icon_yes.png]||none ||
 ||@Cleanup||[http://prepaidvergleich.de/images/icon_yes.png]||don't need extra support from IDE, only compile time thing ||
 ||@SneakyThrows||[http://prepaidvergleich.de/images/icon_no.png] || not supported ||
-||@val||[http://prepaidvergleich.de/images/icon_no.png] ||not supported ||
+||@val||[http://prepaidvergleich.de/images/icon_no.png] ||currently not supported ||
+||@Value||[http://prepaidvergleich.de/images/icon_no.png] ||currently not supported ||
+||@Builder||[http://prepaidvergleich.de/images/icon_no.png] ||currently not supported ||
+||@Accessors||[http://prepaidvergleich.de/images/icon_no.png] ||currently not supported ||
+||@ExtensionMethod||[http://prepaidvergleich.de/images/icon_no.png] ||currently not supported ||
+||@FieldDefaults||[http://prepaidvergleich.de/images/icon_no.png] ||currently not supported ||
+||@Wither||[http://prepaidvergleich.de/images/icon_no.png] ||currently not supported ||
