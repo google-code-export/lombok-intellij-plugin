@@ -1,9 +1,6 @@
 #labels Featured
 = Current Lombok feature support: =
 
-===Current general limitations:===
- * classes with generics are not fully supported at the moment!
-
 || *annotation* || *supported* ||*known limitations* || 
 ||[http://projectlombok.org/features/GetterSetter.html @Getter]||[http://prepaidvergleich.de/images/icon_yes.png]||none ||
 ||[http://projectlombok.org/features/GetterLazy.html @Getter(lazy=true)]||[http://prepaidvergleich.de/images/icon_yes.png]|| don't need extra support from IDE, only compile time thing||
