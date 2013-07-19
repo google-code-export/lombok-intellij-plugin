@@ -13,7 +13,7 @@
 ||[http://projectlombok.org/features/Constructor.html @RequiredArgsConstructor]||[http://prepaidvergleich.de/images/icon_yes.png]||none ||
 ||[http://projectlombok.org/features/Data.html @Data]||[http://prepaidvergleich.de/images/icon_yes.png]||none ||
 ||[http://projectlombok.org/features/Delegate.html @Delegate]||[http://prepaidvergleich.de/images/icon_yes.png] ||supported on fields, but not on methods||
-||[[http://projectlombok.org/features/Log.html @CommonsLog]||[http://prepaidvergleich.de/images/icon_yes.png]||none ||
+||[http://projectlombok.org/features/Log.html @CommonsLog]||[http://prepaidvergleich.de/images/icon_yes.png]||none ||
 ||[http://projectlombok.org/features/Log.html @Log]||[http://prepaidvergleich.de/images/icon_yes.png] ||none ||
 ||[http://projectlombok.org/features/Log.html @Log4j]||[http://prepaidvergleich.de/images/icon_yes.png]||none ||
 ||[http://projectlombok.org/features/Log.html @Log4j2]||[http://prepaidvergleich.de/images/icon_yes.png]||none ||
