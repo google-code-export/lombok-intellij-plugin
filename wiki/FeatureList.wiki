@@ -24,7 +24,7 @@
 ||[http://projectlombok.org/features/val.html @val]||[http://prepaidvergleich.de/images/icon_no.png] ||currently not supported ||
 ||[http://projectlombok.org/features/Value.html @Value]||[http://prepaidvergleich.de/images/icon_no.png] ||currently not supported ||
 ||[http://projectlombok.org/features/experimental/Builder.html @Builder]||[http://prepaidvergleich.de/images/icon_no.png] ||currently not supported ||
-||[http://projectlombok.org/features/experimental/Accessors.html @Accessors]||[http://prepaidvergleich.de/images/icon_no.png] ||currently not supported ||
+||[http://projectlombok.org/features/experimental/Accessors.html @Accessors]||[http://prepaidvergleich.de/images/icon_yes.png] ||supported from v.0.6.6||
 ||[http://projectlombok.org/features/experimental/ExtensionMethod.html @ExtensionMethod]||[http://prepaidvergleich.de/images/icon_no.png] ||currently not supported ||
 ||[http://projectlombok.org/features/experimental/FieldDefaults.html @FieldDefaults]||[http://prepaidvergleich.de/images/icon_no.png] ||currently not supported ||
 ||[http://projectlombok.org/features/experimental/Wither.html @Wither]||[http://prepaidvergleich.de/images/icon_no.png] ||currently not supported ||
