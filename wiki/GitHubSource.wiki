@@ -1,0 +1,8 @@
+#summary Source code of lombok--intellij-plugin moved to GitHib
+#labels Phase-Implementation
+
+= The source code is on [https://github.com/mplushnikov/lombok-intellij-plugin GitHub] =
+
+The actual state of source code of this project is located on [https://github.com/mplushnikov/lombok-intellij-plugin GitHub].
+
+You can clone it here: https://github.com/mplushnikov/lombok-intellij-plugin.git
