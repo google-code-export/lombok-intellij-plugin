@@ -6,40 +6,41 @@
 Note: For more details on each item, please see its issue
 === 0.8.0 - February 13, 2014 ===
 
-		  * Added refactoring action for Lombok @Log and friends, @Getter and @Setter methods
-		  * Added refactoring actions to Delombok @Data, @Value, @Wither, @Constructors, @Getter, @Setter, @EqualsAndHashCode, @ToString and @Log annotations
-		  * Fixed problem with renaming fields in class containing lombok @Getter and @Setter
-		  * Issue #94: Fixed Intellij does not correctly create the constructor with @RequiredAllConstructor for classes with @Value
+  * Added refactoring action for Lombok @Log and friends, @Getter and @Setter methods
+  * Added refactoring actions to Delombok @Data, @Value, @Wither, @Constructors, @Getter, @Setter, @EqualsAndHashCode, @ToString and @Log annotations
+  * Fixed problem with renaming fields in class containing lombok @Getter and @Setter
+  * Issue #94 Fixed Intellij does not correctly create the constructor with @RequiredAllConstructor for classes with @Value
+
 === 0.7.3 -  ===
-		  * Fix IllegalArgumentException when trying to expand method names on IntelliJ 11
+  * Fix IllegalArgumentException when trying to expand method names on IntelliJ 11
 === 0.7.2 -  ===
-		  * Fix multiple stackoverflow exceptions
+  * Fix multiple stackoverflow exceptions
 === 0.7.1 -  ===
-		  * Some performance optimizations
+  * Some performance optimizations
 === 0.7.0 -  ===
-		  * Added partial support for @Value lombok annotations
-		  * Added support for @Accessors lombok experimental annotation
-		  * Added support for @Wither lombok experimental annotation
-		  * Added support for @Builder lombok experimental annotations
+  * Added partial support for @Value lombok annotations
+  * Added support for @Accessors lombok experimental annotation
+  * Added support for @Wither lombok experimental annotation
+  * Added support for @Builder lombok experimental annotations
 === 0.6.5 -  ===
-		  * Issue #20	Fixed Using @Delegate together with generic methods produced red underlining in the editor window
-		  * Issue #29	Fixed @Delegate leads to exception in LombokLightParameter
-		  * Issue #37 and #59	Fixed @EqualsAndHashCode inspection for callSuper parameter
-		  * Issue #54	Valid code produces inspections errors - anonymous instance, partial implementation
+  * Issue #20 Fixed Using @Delegate together with generic methods produced red underlining in the editor window
+  * Issue #29 Fixed @Delegate leads to exception in LombokLightParameter
+  * Issue #37 and Issue #59 Fixed @EqualsAndHashCode inspection for callSuper parameter
+  * Issue #54 Valid code produces inspections errors - anonymous instance, partial implementation
 === 0.6.4 -  ===
-		  * Issue #49	Deprecated fields should generate deprecated methods
+  * Issue #49 Deprecated fields should generate deprecated methods
 === 0.6.3 -  ===
-		  * Issue #41 Added support for XSlf4j and Log4j2 logger
-		  * Issue #44 Fixed Getter- and Setter- method generation, when method is already there with a parameter(s)
-		  * Issue #56	Removed obsolete plugin dependencies (they have been merged into intellij core)
+  * Issue #41 Added support for XSlf4j and Log4j2 logger
+  * Issue #44 Fixed Getter- and Setter- method generation, when method is already there with a parameter(s)
+  * Issue #56 Removed obsolete plugin dependencies (they have been merged into intellij core)
 === 0.6.2 -  ===
-		  * Issue #50 Compiled with java 1.7 -> Don't work under java 1.6 vms
+  * Issue #50 Compiled with java 1.7 -> Don't work under java 1.6 vms
 === 0.6.0 -  ===
-		  * Issue #23 Updated to run with IntelliJ 12
-		  * Issue #42 IllegalArgumentException with Intellij 12
-		  * Issue #48 IllegalArgumentException with Intellij 12
-		  * Issue #38 Added ability to enable/disable lombok-intellij-plugin per project-configuration
-				    and reduced logging-level of plugin
+  * Issue #23 Updated to run with IntelliJ 12
+  * Issue #42 IllegalArgumentException with Intellij 12
+  * Issue #48 IllegalArgumentException with Intellij 12
+  * Issue #38 Added ability to enable/disable lombok-intellij-plugin per project-configuration and reduced logging-level of plugin
+
 === 0.5.0 - August 22nd, 2012 ===
   * Fixed issue #23 "Initial support for IntelliJ 12"
   * Fixes issue #12 "Added support for "Singleton" and "EnumId" annotations from lombok-pg"
