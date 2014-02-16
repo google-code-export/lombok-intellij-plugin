@@ -4,6 +4,14 @@
 = Release Notes =
 
 Note: For more details on each item, please see its issue
+
+=== 0.8.1 - February 16, 2014 ===
+
+  * Issue (on Git) 23: Fixed @Delegate inspection reports error
+  * Issue (on Git) 27: Fixed @Delegate on a type parameter doesn't fail
+  * Issue #60: Fixed @Delegate on methods is not supported now
+  * Issue #98: Fixed Lombok Experimental Accessor Prefix does not handle non-alphanumeric prefixes
+
 === 0.8.0 - February 13, 2014 ===
 
   * Added refactoring action for Lombok @Log and friends, @Getter and @Setter methods
