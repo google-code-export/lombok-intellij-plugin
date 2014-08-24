@@ -1,7 +1,7 @@
-#summary One-sentence summary of this page.
+#summary Manage issues on Github
 
-= The source code is on GitHub now =
+= This project is on GitHub now =
 
 The actual state of source code of this project is located on GitHub.
 
-You can create or track issues here: https://github.com/mplushnikov/lombok-intellij-plugin/issues
+You can create and track issues here: https://github.com/mplushnikov/lombok-intellij-plugin/issues
