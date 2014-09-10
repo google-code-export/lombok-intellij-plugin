@@ -1,6 +1,6 @@
 #summary Manage issues on Github
 
-= This project is on GitHub now =
+= This project is on [https://github.com/mplushnikov/lombok-intellij-plugin GitHub] now =
 
 The actual state of source code of this project is located on GitHub.
 
