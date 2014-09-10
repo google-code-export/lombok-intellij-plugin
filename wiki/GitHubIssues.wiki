@@ -2,6 +2,6 @@
 
 = This project is on [https://github.com/mplushnikov/lombok-intellij-plugin GitHub] now =
 
-The actual state of source code of this project is located on GitHub.
+The actual state of source code of this project is located on [https://github.com/mplushnikov/lombok-intellij-plugin GitHub].
 
 You can create and track issues here: https://github.com/mplushnikov/lombok-intellij-plugin/issues
